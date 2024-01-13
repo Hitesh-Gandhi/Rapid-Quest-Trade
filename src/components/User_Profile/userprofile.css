@@ -1,0 +1,140 @@
+#profile {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 25%;
+    height: 100vh;
+}
+
+.userDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.profileImg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    left: 0;
+    margin-right: 1rem;
+    right: 0;
+    top: 150px;
+    border: 1px solid white;
+}
+
+.username {
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.welcomeBack {
+    color: gray;
+}
+
+.accountDetails{
+    margin: 5rem auto;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.day{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.balanceAmt{
+    font-size: xx-large;
+}
+
+.balance{
+    font-size: small;
+    color: gray;
+}
+
+.contributionAmt{
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.contribution{
+    font-size: small;
+    color: gray;
+}
+
+.interestAmt{
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+
+.interest{
+    font-size: small;
+    color: gray;
+}
+
+.wantBtn{
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    background: blue;
+    color: white;
+    border: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+}
+
+.transactions{
+    margin-top: -2rem;
+    margin-left: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.recentTransactions{
+    margin-top: -2rem;
+    font-size: large;
+}
+
+.date1{
+    color: gray;
+    margin-top: 1rem;
+}
+
+.bankName1{
+    font-size: small;
+}
+
+.date2{
+    color: gray;
+    margin-top: 1rem;
+}
+
+.bankName2{
+    font-size: small;
+}
+
+.date3{
+    color: gray;
+    margin-top: 1rem;
+}
+
+.bankName3{
+    font-size: small;
+}
+
+.lineBreak{
+    align-items: center;
+    justify-content: center;
+    margin: 0.7rem 0.5rem;
+    margin-left: -0.1rem;
+    width: 15vw;
+    border: -1px solid gray;
+    border-width: 2px;
+}

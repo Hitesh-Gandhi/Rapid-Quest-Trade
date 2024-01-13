@@ -1,0 +1,143 @@
+#intro {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: white;
+}
+
+.retirementBox {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 300px;
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+
+.strategyText {
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.sliderValue{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.field{
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.slider{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.valueRight{
+    color: black;
+}
+
+.linebreak{
+    align-items: center;
+    justify-content: center;
+    margin: 0.7rem 0.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 15vw;
+    border: -1px solid gray;
+    border-width: 2px;
+}
+
+.employePercentage{
+    display: flex;
+    margin-top: 1rem;
+    font-size: small;
+    font-weight: bold;
+}
+.eContri{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.ePercentage{
+    margin-left: 2rem;
+}
+
+.interestRate{
+    display: flex;
+    margin-top: 1rem;
+    font-size: small;
+    font-weight: bold;
+}
+.iRate{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.iPercentage{
+    margin-left: 7rem;
+}
+
+.updateBtn{
+    margin: 2rem auto;
+    color: white;
+    border-radius: 15px;
+    width: 15rem;
+    cursor: pointer;
+    background-color: blue;
+    border: 3px solid blue;
+}
+
+.updateText{
+    margin: 0.8rem 4rem;
+    font-weight: bold;
+}
+
+.helpDocs{
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+.ad{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.verticalLine{
+    width: 2px;
+    height: 8rem;
+    background-color: blue;
+}
+
+.advertisement{
+    margin-left: 2rem;
+}
+
+.lineTwo{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.lineThree{
+    margin-top: 0.5rem;
+    font-size: small;
+    color: gray;
+}
+
+.lineFour{
+    margin-top: 1.5rem;
+    color: blue;
+    font-size: small;
+    cursor: pointer;
+}

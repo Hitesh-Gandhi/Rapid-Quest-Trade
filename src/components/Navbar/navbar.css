@@ -1,0 +1,85 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.topMenu{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem 1rem;
+}
+
+.searchBtn{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 1rem 2rem;
+    color: gray;
+}
+.searchBtn:hover{
+    background: blue;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.middleMenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+
+.homeIcon, .newsIcon, .listIcon, .profileIcon{
+    height: 2rem;
+    width: 2rem;
+    color: gray;
+    margin: 1rem 0rem;
+}
+
+.homeIcon:hover, .newsIcon:hover, .listIcon:hover, .profileIcon:hover{
+    color: white;
+    padding: 0.5rem;
+    background: blue;
+    border-radius: 11px;   
+}
+
+.bottomMenu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 0.2rem;
+}
+
+.bellIcon, .exitIcon{
+    height: 2rem;
+    width: 2rem;
+    color: gray;
+    margin: 1rem 0rem;
+}
+
+.bellIcon:hover, .exitIcon:hover{
+    color: white;
+    padding: 0.5rem;
+    background: blue;
+    border-radius: 11px;
+}
+
+@media screen and (max-width:840px) {
+    .topMenu{
+        display: flex;
+        flex-direction: row-reverse;
+        position: sticky;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .image{
+        display: none;
+    }
+}
